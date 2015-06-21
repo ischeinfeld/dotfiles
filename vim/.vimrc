@@ -16,6 +16,7 @@ Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-vinegar.git'
 Plugin 'beloglazov/vim-online-thesaurus'
 Plugin 'vimoutliner/vimoutliner'
+Plugin 'christoomey/vim-tmux-navigator'
 " Bundle 'name/package' ...and so on...
 
 filetype on
@@ -117,3 +118,13 @@ nmap <leader>l :set list!<CR>
 
 " Use the same symbols as TextMate for tabstops and EOLs
 set listchars=tab:▸\ ,eol:¬
+
+" Make vim split sanely
+set splitbelow
+set splitright
+
+" Change tab to 2 spaces for html
+autocmd Filetype html set tabstop=2
+autocmd Filetype html set shiftwidth=2
+autocmd Filetype html set softtabstop=2
+
