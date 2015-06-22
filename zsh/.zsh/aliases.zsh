@@ -17,3 +17,8 @@ alias lh='ls -d .*' # show hidden files/directories only
 alias ..='cd ..'
 alias ...=' cd ../..'
 alias ....='cd ../../..'
+
+# -------------------------------------------------------------------
+# zsh
+# -------------------------------------------------------------------
+alias reload='. ~/.zshrc' # reload .zshrc

@@ -123,8 +123,10 @@ set listchars=tab:▸\ ,eol:¬
 set splitbelow
 set splitright
 
-" Change tab to 2 spaces for html
+" Change tab to 2 spaces for html and css
 autocmd Filetype html set tabstop=2
 autocmd Filetype html set shiftwidth=2
 autocmd Filetype html set softtabstop=2
-
+autocmd Filetype css set tabstop=2
+autocmd Filetype css set shiftwidth=2
+autocmd Filetype css set softtabstop=2
