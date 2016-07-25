@@ -1,3 +1,3 @@
 **Dotfiles**
 
-Don't even bother with vim, just go install spacemacs! No, don't wait, you can't afford to!
+Actually, I don't like Spacemacs anymore. But emacs+evil rocks!
